@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block title %}
+    {{myrelat.nome_relatorio}}
+{% endblock %} 
+    
+
+
+
+{% block conteudo %}
+    <div class="container-fluid">
+        <h1 class="text-center bg-light p-5">{{myrelat.nome_relatorio}}</h1>
+        <div class="text-center p-3">
+            <iframe class="col-lg-8" width="1140" height="541.25" src="{{myrelat.link_relatorio}}" allowFullScreen="true"></iframe>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="/" class="btn btn-danger d-inline-flex justify-content-center  my-3" role="button">Voltar</a>
+        </div>
+    </div>
+{% endblock %}

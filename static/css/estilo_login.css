@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.corpo__pagina {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__pagina__main {
+    display: flex;
+    flex-direction: column;
+    margin: auto 5%;
+}
+
+
+.logo__g5 {
+    width: 100px;
+    align-content: center;
+    margin: auto;
+}
+
+.corpo__pagina__main__texto{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    margin: 2% 5%;
+    font-size: 15px;
+}
+
+.cabecalio__titulo {
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px 15px;
+}
+
+.formulario__login {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+.formulario__login__titulo {
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.formulario__login__corpo {
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.formulario__login__submit {
+    text-align: center;
+}
+
+.formulario__login__submit__botao{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.formulario__login__submit__botao:hover {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 2%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #f8f8f8;
+}
+.corpo__rodape {
+    background-color: rgb(0, 0, 0);
+    margin-top: 5%;
+    align-content: center;
+    display: flex;
+    padding: 1%;
+}
+
+.corpo__rodape__texto {
+    margin: auto;
+    color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+}
+
+::selection{
+    color: rgb(253, 253, 253);
+    background: rgb(0, 0, 0);
+}
