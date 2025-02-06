@@ -1,5 +1,5 @@
 """
-URL configuration for usuario project.
+URL configuration for report_app project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from usuario import settings
+from appsetings import settings
 from django.conf.urls.static import static
-from user_app.views import home, exibe_relatorio
+from report_app.views import home, exibe_relatorio
 from django.views.static import serve
 from django.urls import re_path
 

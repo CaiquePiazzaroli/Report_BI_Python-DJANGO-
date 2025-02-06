@@ -24,7 +24,7 @@
 
 
 .logo__g5 {
-    width: 100px;
+    width: 60px;
     align-content: center;
     margin: auto;
 }
@@ -43,6 +43,7 @@
 }
 
 .formulario__login {
+    max-width: 287px;
     margin: 0 auto;
     padding: 30px;
     background-color: rgba(0, 0, 0);
