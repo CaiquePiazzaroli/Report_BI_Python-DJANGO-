@@ -68,7 +68,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'appsetings.urls'
+ROOT_URLCONF = 'appsettings.urls'
 
 TEMPLATES = [
     {
@@ -86,7 +86,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'appsetings.wsgi.application'
+WSGI_APPLICATION = 'appsettings.wsgi.application'
 
 
 # Database

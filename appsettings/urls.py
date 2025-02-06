@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from appsetings import settings
+from appsettings import settings
 from django.conf.urls.static import static
 from report_app.views import home, exibe_relatorio
 from django.views.static import serve
