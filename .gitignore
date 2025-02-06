@@ -1,2 +1,4 @@
 /.myenv
 /.dist
+/.vscode/
+db.sqlite3
