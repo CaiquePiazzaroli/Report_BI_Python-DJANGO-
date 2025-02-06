@@ -2,6 +2,8 @@
 
 This project was made with django!
 
+Go to https://www.djangoproject.com/ to know more about!
+
 # Installation
 In the root project, run:
 ```
