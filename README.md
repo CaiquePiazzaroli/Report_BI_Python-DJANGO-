@@ -24,7 +24,7 @@ python manage.py createsuperuser
 
 ``` 
 
-Insert the username and password and now you can Sing in.
+Insert the username and Password. Now you can sign in.
 
 
 # Add new Power BI report
