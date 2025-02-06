@@ -24,8 +24,6 @@ python manage.py createsuperuser
 
 Insert the username and password and now you can Sing in.
 
-![alt text](image-1.png)
-
 
 # Add new Power BI report
 Go to http://127.0.0.1:8000/admin/
