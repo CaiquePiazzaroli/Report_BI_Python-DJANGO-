@@ -12,7 +12,7 @@ python manage.py runserver
 
 Go to: http://127.0.0.1:8000/
 
-![alt text](./readmeImg/login.png)
+![alt text](image.png)
 
 # Create superuser
 when you start a new project, there is no user login. 
@@ -24,5 +24,16 @@ python manage.py createsuperuser
 
 Insert the username and password and now you can Sing in.
 
-![alt text](./readmeImg/usernameLogin.png)
+![alt text](image-1.png)
+
+
+# Add new Power BI report
+Go to http://127.0.0.1:8000/admin/
+In report_app section, go to: +add
+Insert name, description, URL values
+
+![alt text](image-2.png)
+
+Now, the new PowerBI report will be in the home page.
+
 

@@ -1,4 +1,4 @@
 /.myenv
-/.dist
+/.distgit 
 /.vscode/
 db.sqlite3
